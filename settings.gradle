@@ -1,0 +1,2 @@
+include ':app', ':loginverification'
+rootProject.name='Weathervane'
