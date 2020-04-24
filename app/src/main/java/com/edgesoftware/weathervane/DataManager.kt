@@ -6,7 +6,7 @@ object DataManager {
 
     init {
         initializeFarmStands()
-        initialseNotes()
+        initializeNotes()
     }
 
     private fun initializeFarmStands() {
@@ -23,7 +23,7 @@ object DataManager {
         farmStands.set(farmStand.farmStandId, farmStand)
     }
 
-    private fun initialseNotes() {
+    private fun initializeNotes() {
         var farmStand = farmStands["hallah_farmstand"]!!
         var note = NoteInfo(farmStand, "Amazing Produce",
             "Wow, every time I go here the produce is amazing")
